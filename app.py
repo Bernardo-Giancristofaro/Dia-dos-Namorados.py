@@ -15,10 +15,10 @@ def mostrar_tempo_juntos(data_inicio):
 
 
     st.markdown(f"""
-    # ⏳ {dias} dias
-    ## {horas} horas
-    ## {minutos} minutos
-    ## {segundos} segundos
+    ### ⏳ {dias} dias
+    ### {horas} horas
+    ### {minutos} minutos
+    ### {segundos} segundos
     """)
 
 
