@@ -17,7 +17,7 @@ tempo = agora - inicio
 st.header('Estamos juntos há:')
 st.write(f'{tempo.days} dias')
 
-st.image('fotos/foto1.jpg')
+st.image('foto_juntos.jpg')
 
 st.header('Nossa História')
 
