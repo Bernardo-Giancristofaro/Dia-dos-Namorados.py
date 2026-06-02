@@ -7,22 +7,25 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title('❤️ Be & Lala ❤️')
+co11, co12, co13 = st.columns([1, 3, 1])
 
-inicio = datetime(2023, 11, 25)
+with co12:
+    st.title('❤️ Be & Lala ❤️')
 
-agora = datetime.now()
-tempo = agora - inicio 
+    inicio = datetime(2023, 11, 25)
 
-st.header('Estamos juntos há:')
-st.write(f'{tempo.days} dias')
+    agora = datetime.now()
+    tempo = agora - inicio 
 
-st.image('foto_juntos.jpg', width=700)
+    st.header('Estamos juntos há:')
+    st.write(f'{tempo.days} dias')
 
-st.header('Nossa História')
+    st.image('foto_juntos.jpg', width=700)
 
-if st.button('Clique aqui ❤️ '):
-    st.balloons()
-    st.success('Eu te amoooo infinitamenteeeeee ❤️ ❤️ ❤️ ❤️ ')
+    st.header('Nossa História')
+
+    if st.button('Clique aqui ❤️ '):
+        st.balloons()
+        st.success('Eu te amoooo infinitamenteeeeee ❤️ ❤️ ❤️ ❤️ ')
 
 #teste para streamlit
