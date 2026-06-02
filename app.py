@@ -35,13 +35,7 @@ with co12:
 
     inicio = datetime(2023, 11, 25)
 
-    agora = datetime.now()
-
-    tempo = agora - inicio 
-
-    st.header('Estamos juntos há:')
-    
-    st.write(f'{tempo.days} dias')
+    mostrar_tempo_juntos(inicio)
 
     st.image('foto_juntos.jpg', width=700)
 
