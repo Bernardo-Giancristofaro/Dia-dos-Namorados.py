@@ -14,7 +14,7 @@ def mostrar_tempo_juntos(data_inicio):
     st.header("Estamos juntos há  ❤️")
 
 
-    st.markdown(f" ⏳ {dias} dias  {horas} horas  {minutos} minutos {segundos} segundos ")
+    st.markdown(f" ### ⏳ {dias} dias  {horas} horas  {minutos} minutos {segundos} segundos ")
 
 
 st.set_page_config(
