@@ -15,7 +15,7 @@ agora = datetime.now()
 tempo = agora - inicio 
 
 st.header('Estamos juntos há:')
-st.writer(f'{tempo.days} dias')
+st.write(f'{tempo.days} dias')
 
 st.image('fotos/foto1.jpg')
 
